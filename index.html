@@ -2,40 +2,64 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Plattformen der Informatikfirma</title>
+  <title>Informatikfirma – Plattformen</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <link href="css/style.css" rel="stylesheet">
 </head>
 <body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Informatikfirma</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Startseite</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Plattformen</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Über uns</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Kontakt</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hauptinhalt -->
   <div class="container mt-5">
     <h1 class="text-primary">Unsere Plattformen</h1>
-    <p>Willkommen bei unserer Informatikfirma. Hier finden Sie unsere digitalen Plattformlösungen.</p>
-    
+    <p class="lead">Moderne Lösungen für die digitale Zukunft.</p>
+
     <div class="row mt-4">
       <div class="col-md-4">
-        <div class="card">
+        <div class="card mb-4">
           <div class="card-body">
             <h5 class="card-title">Plattform A</h5>
-            <p class="card-text">Cloud-basierte Lösung für Datenmanagement.</p>
-            <a href="#" class="btn btn-success">Jetzt anfragen</a>
+            <p class="card-text">Cloudbasierte Verwaltungssysteme für Unternehmen.</p>
+            <a href="#" class="btn btn-success">Anfragen</a>
           </div>
         </div>
       </div>
 
       <div class="col-md-4">
-        <div class="card">
+        <div class="card mb-4">
           <div class="card-body">
             <h5 class="card-title">Plattform B</h5>
-            <p class="card-text">Webbasierte Verwaltungsplattform.</p>
-            <a href="#" class="btn btn-success">Jetzt anfragen</a>
+            <p class="card-text">Datensicherheit und Hosting für kritische Infrastrukturen.</p>
+            <a href="#" class="btn btn-success">Anfragen</a>
           </div>
         </div>
       </div>
     </div>
   </div>
 
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>&copy; 2025 Informatikfirma. Alle Rechte vorbehalten.</p>
+  </footer>
+
   <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/script.js"></script>
 </body>
 </html>
